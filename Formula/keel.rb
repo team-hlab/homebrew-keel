@@ -1,24 +1,24 @@
 class Keel < Formula
   desc "Lean hook harness for AI coding agents (permit/deny/ask)"
   homepage "https://github.com/team-hlab/keel"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/team-hlab/keel/releases/download/v0.1.0/keel-aarch64-apple-darwin.tar.gz"
-      sha256 "64a14b619e70792eef54ed35dfc2d42677a3dcc1d4215d26e7ca8050d6cebd4b"
+      url "https://github.com/team-hlab/keel/releases/download/v0.1.1/keel-aarch64-apple-darwin.tar.gz"
+      sha256 "d3fbbe7cd32be7173b096f978f50aebb49d74d6345e3d5363e1332779e3d6629"
     end
     on_intel do
-      url "https://github.com/team-hlab/keel/releases/download/v0.1.0/keel-x86_64-apple-darwin.tar.gz"
-      sha256 "c0c7888f674c3ee0f9d3e5ef0208d8a6fa291e5edae1dc0cc8b288b579adfb38"
+      url "https://github.com/team-hlab/keel/releases/download/v0.1.1/keel-x86_64-apple-darwin.tar.gz"
+      sha256 "d60b92459de5de694c831f536d30cf3edc98a5660da2b1afc925353972c11dd7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/team-hlab/keel/releases/download/v0.1.0/keel-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d22f7707ded24857388f337c4e7a2233e9bb4ebea785e510513d1e90fea47ee6"
+      url "https://github.com/team-hlab/keel/releases/download/v0.1.1/keel-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1ed37ebd160843f946733544e0b40990fa45666e94f62640b74db6e63ab151bf"
     end
   end
 
